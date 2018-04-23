@@ -1,3 +1,4 @@
+diary('myTextLog.txt'); 
 tic 
 
 config = getConfig(1);
@@ -59,4 +60,4 @@ disp(sprintf("Y = ")); Y = best.X*config.beta
   
 
 toc
-
+ diary('off');
