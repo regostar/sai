@@ -1,4 +1,4 @@
-diary('myTextLog.txt'); 
+diary('k5d4c1.txt'); 
 tic 
 
 config = getConfig(1);

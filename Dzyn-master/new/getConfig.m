@@ -3,8 +3,8 @@
 function config = getConfig(index)
 	%configs = {};
 
-	config1.ndisc = 0;
-	config1.ncont = 7;
+	config1.ndisc = 4;
+	config1.ncont = 1;
 	config1.nintr = 0;
 
   disp(sprintf("Factors = %d\nDiscrete = %d\nContinuous = %d\n", config1.ndisc + config1.ncont, config1.ndisc, config1.ncont));
@@ -26,11 +26,11 @@ function config = getConfig(index)
 	config1.link = 'logit';
 
 	% MSMA hyperparameters
-	config1.popSize = 31;
+	config1.popSize = 30;
 
-	config1.maxReset = 4;
-	config1.maxIter1 = 5;
-	config1.maxIter2 = 2;
+	config1.maxReset = 5;
+	config1.maxIter1 = 1;
+	config1.maxIter2 = 5;
 
   disp(sprintf("\n\nHyper Parameters \npopSize = %d\nmaxReset = %d\nmaxIter1 = %d\nmaxIter2 = %d\n", 
                 config1.popSize, config1.maxReset, config1.maxIter1, config1.maxIter2));
